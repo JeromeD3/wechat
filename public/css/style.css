@@ -1,0 +1,189 @@
+/* Fix user-agent */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+}
+
+html,
+input,
+div {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+    Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+  word-wrap: break-word;
+}
+
+/* Pages */
+
+.pages {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.page {
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+
+/* Login Page */
+
+.login.page {
+  background-color: #000;
+  z-index: 100;
+}
+
+.login.page .form {
+  height: 100px;
+  margin-top: -100px;
+  position: absolute;
+
+  text-align: center;
+  top: 50%;
+  width: 100%;
+}
+
+.login.page .form .usernameInput {
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #fff;
+  outline: none;
+  padding-bottom: 15px;
+  text-align: center;
+  width: 400px;
+}
+
+.login.page .title {
+  font-size: 200%;
+}
+
+.login.page .usernameInput {
+  font-size: 200%;
+  letter-spacing: 3px;
+}
+
+.login.page .title,
+.login.page .usernameInput {
+  color: #fff;
+  font-weight: 100;
+}
+
+/* Chat page */
+
+.chat.page {
+  /* display: none; */
+}
+
+/* Font */
+
+.messages {
+  font-size: 150%;
+}
+
+.inputMessage {
+  font-size: 100%;
+}
+
+.log {
+  color: gray;
+  font-size: 70%;
+  margin: 5px;
+  text-align: center;
+}
+
+/* Messages */
+
+.chatArea {
+  height: 100%;
+  padding-bottom: 60px;
+}
+
+.messages {
+  height: 100%;
+  margin: 0;
+  overflow-y: scroll;
+  padding: 10px 20px 10px 20px;
+}
+
+.message.typing .messageBody {
+  color: gray;
+}
+
+.username {
+  font-weight: 700;
+  overflow: hidden;
+  padding-right: 15px;
+  text-align: right;
+}
+/* Input */
+.inputMessage {
+  border: 1px solid #2d3436;
+  border-radius: 10px;
+  bottom: 10px;
+  height: 60px;
+  left: 400px;
+  outline: none;
+  position: absolute;
+  right: 0;
+  width: 135vh;
+  z-index: 10;
+  padding: 15px;
+  line-height: 30px;
+}
+/* 在线人数 */
+.userBox {
+  border-radius: 25px;
+  width: 350px;
+  height: 93.5vh;
+  background-color: #2c3e50;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.name {
+  color: white;
+  font-size: 30px;
+}
+h1,
+h2 {
+  color: white;
+}
+
+.pic {
+  position: absolute;
+  bottom: 10px;
+  /* float: left; */
+  /* width: 140px; */
+  left: 2vh;
+  width: 350px;
+  height: 60px;
+  line-height: 60px;
+  /* background-color: black; */
+  border-radius: 10px;
+  border: 1px solid #2d3436;
+}
+.iconfont {
+  float: left;
+  margin: 0 30px;
+}
+.app {
+  width: 100px;
+  height: 100px;
+}
